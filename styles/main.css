@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+body {
+    background-color: #E7E7E7;
+    font-family: Comfortaa, sans-serif;
+    color: #505050;
+    height: 1600px;
+}
+
+a {
+    position: absolute;
+    color: #505050;
+    font-weight: 300px;
+    font-size: 17px;
+}
+
+/* classes */
+.title {
+    position: absolute;
+    font-size: 70px;
+    font-weight: bold;
+    color: #FFA877;
+}
+.under-title {
+    position: absolute;
+    font-size: 45px;
+    font-weight: bold;
+}
+.description {
+    position: absolute;
+    font-size: 25px;
+    font-weight: 500px;
+}
+.boxes {
+    position: absolute;
+}
+.img {
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px 0 #000000;
+}
+.color-span {
+    color: #FFA877;
+}
+
+/* id */
+#box-navigation1 {
+    top: 0;
+    height: 86px;
+    width: 100%;
+    background-color: #FFA877;
+    opacity: 50%;
+}
+#box-navigation2 {
+    height: 73px;
+    width: 100%;
+    background-color: #737373;
+    opacity: 80%;
+}
+#head-title {
+    top: 134px;
+    left: 188px;
+}
+#un-title-head {
+    top: 212px;
+    left: 188px;
+}
+#description-head {
+    top: 349px;
+    left: 188px;
+}
+#aboutme-box1 {
+    background-color: #FFA877;
+    width: 740px;
+    height: 320px;
+    opacity: 50%;
+    top: 657px;
+    left: 188px;
+    box-shadow: 2px 2px 15px 0 #000000;
+}
+#aboutme-box2 {
+    background-color: #737373;
+    width: 720px;
+    height: 300px;
+    opacity: 50%;
+    top: 667px;
+    left: 198px;
+}
+#avatar-aboutme {
+    width: 280px;
+    top: 592px;
+    left: 558px;
+}
+#title-aboutme {
+    top: 592px;
+    left: 960px;
+}
+#description-aboutme {
+    top: 711px;
+    left: 960px;
+}
+#translate-page {
+    top: 638px;
+    left: 198px;
+}
