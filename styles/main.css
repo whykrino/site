@@ -5,7 +5,7 @@ body {
     font-family: Comfortaa, sans-serif;
     color: #505050;
     height: 1600px;
-    /* user-select: none; */
+    user-select: none;
 }
 a {
     position: absolute;
