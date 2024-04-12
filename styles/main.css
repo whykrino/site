@@ -5,13 +5,16 @@ body {
     font-family: Comfortaa, sans-serif;
     color: #505050;
     height: 1600px;
+    user-select: none;
 }
-
 a {
     position: absolute;
     color: #505050;
     font-weight: 300px;
     font-size: 17px;
+}
+img {
+    pointer-events: none; 
 }
 
 /* classes */
@@ -21,7 +24,7 @@ a {
     font-weight: bold;
     color: #FFA877;
 }
-.under-title {
+.under_title {
     position: absolute;
     font-size: 45px;
     font-weight: bold;
@@ -39,37 +42,37 @@ a {
     border-radius: 10px;
     box-shadow: 3px 3px 4px 0 #000000;
 }
-.color-span {
+.color_span {
     color: #FFA877;
 }
 
 /* id */
-#box-navigation1 {
+#box_navigation1 {
     top: 0;
     height: 86px;
     width: 100%;
     background-color: #FFA877;
     opacity: 50%;
 }
-#box-navigation2 {
+#box_navigation2 {
     height: 73px;
     width: 100%;
     background-color: #737373;
     opacity: 80%;
 }
-#head-title {
+#head_title {
     top: 134px;
     left: 188px;
 }
-#un-title-head {
+#un_title_head {
     top: 212px;
     left: 188px;
 }
-#description-head {
+#description_head {
     top: 349px;
     left: 188px;
 }
-#aboutme-box1 {
+#aboutme_box1 {
     background-color: #FFA877;
     width: 740px;
     height: 320px;
@@ -78,7 +81,7 @@ a {
     left: 188px;
     box-shadow: 2px 2px 15px 0 #000000;
 }
-#aboutme-box2 {
+#aboutme_box2 {
     background-color: #737373;
     width: 720px;
     height: 300px;
@@ -86,20 +89,55 @@ a {
     top: 667px;
     left: 198px;
 }
-#avatar-aboutme {
+#avatar_aboutme {
     width: 280px;
     top: 592px;
     left: 558px;
 }
-#title-aboutme {
+#title_aboutme {
     top: 592px;
     left: 960px;
 }
-#description-aboutme {
+#description_aboutme {
     top: 711px;
     left: 960px;
 }
-#translate-page {
+#translate_page {
     top: 638px;
     left: 198px;
+}
+#link_tg {
+    position: static;
+    font-size: 25px;
+}
+#username {
+    position: absolute;
+    font-size: 40px;
+    color: #E7E7E7;
+    top: 14px;
+    left: 188px;
+}
+#title_stack {
+    top: 1158px;
+    left: 663px;
+}
+#under_title_stack1 {
+    text-align: center;
+    top: 1314px;
+    left: 412px;
+}
+#under_title_stack2 {
+    text-align: center;
+    top: 1314px;
+    left: 1081px;
+}
+#stack_description1 {
+    text-align: center;
+    top: 1371px;
+    left: 370px;
+}
+#stack_description2 {
+    text-align: center;
+    top: 1371px;
+    left: 990px;
 }
